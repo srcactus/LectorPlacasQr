@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:icon="@mipmap/ic_menu"
+        android:title="Mas"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/btnInicio"
+                android:icon="@mipmap/ic_home"
+                android:title="Inicio"/>
+            <item android:id="@+id/btnEscaneaQr"
+                android:icon="@mipmap/ic_escanerqr"
+                android:title="Escanea codigo QR"/>
+            <item android:id="@+id/btnSalir"
+                android:icon="@mipmap/ic_salir"
+                android:title="Cerrar sesion"/>
+
+        </menu>
+
+    </item>
+
+</menu>
